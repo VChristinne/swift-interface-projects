@@ -44,6 +44,7 @@
 		42489A572A852CC6006FE4D9 /* learning-language-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "learning-language-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42489A5B2A852CC6006FE4D9 /* learning_language_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learning_language_appUITests.swift; sourceTree = "<group>"; };
 		42489A5D2A852CC6006FE4D9 /* learning_language_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learning_language_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		42489A742A85360B006FE4D9 /* app icon rose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app icon rose.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +98,7 @@
 				42489A402A852CC4006FE4D9 /* learning_language_appApp.swift */,
 				42489A422A852CC4006FE4D9 /* ContentView.swift */,
 				42489A442A852CC5006FE4D9 /* Assets.xcassets */,
+				42489A742A85360B006FE4D9 /* app icon rose.png */,
 				42489A462A852CC5006FE4D9 /* Preview Content */,
 			);
 			path = "learning-language-app";
