@@ -59,7 +59,8 @@ struct ContentView: View {
 					}) {
 						Text("\(tasksToDo[typeIndex].name) Tasks")
 							.font(.subheadline)
-							.fontWeight(.medium)
+							.fontWeight(.bold)
+							.foregroundColor(Color.indigo)
 					}
 					) {
 						ForEach(tasksToDo[typeIndex].tasks.indices, id: \.self) { taskIndex in
@@ -78,6 +79,7 @@ struct ContentView: View {
 			.navigationTitle("Night Watch Tasks")
 			.toolbar {
 				EditButton()
+					.foregroundColor(Color.indigo)
 			}
 			.sheet(isPresented: $isAddingTaskSheetPresented) {
 				AddTaskView(tasksToDo: $tasksToDo)
@@ -113,6 +115,7 @@ struct AddTaskView: View {
 					}
 				}
 				TextField("Description", text: $newTaskName)
+					.keyboardType(.default)
 			}
 			.navigationTitle("New Task")
 			.navigationBarItems(trailing: Button("Add") {
@@ -209,6 +212,5 @@ struct MonthlyTasksView: View {
 struct ContentView_Previews: PreviewProvider {
 	static var previews: some View {
 		ContentView()
-			.colorScheme(.dark)
 	}
 }
