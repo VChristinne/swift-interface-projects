@@ -8,4 +8,4 @@ My personal projects build in SwiftUI
 - [ ] Night Watch v2.0 _(stand by)_
 - [x] App Air Jordan **prototype**
 - [x] Pokedex v1.0 **dynamic**
-- [ ] Color Picker v1.0 _(in progress)_
+- [ ] Color Picker v1.0 _(stand by)_
