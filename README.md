@@ -1,4 +1,4 @@
-# swift-interface-projects
+# swift interface projects
 My personal projects build in SwiftUI
 
 - [x] App Christian Louboutin **prototype**
